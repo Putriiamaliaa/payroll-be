@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "devfarhan",
+    "password": "indonesiahebat@2024",
+    "database": "database_development",
+    "host": "139.59.105.198",
+    "dialect": "mysql"
+  },
+  "dev_farhan": {
+    "username": "devfarhan",
+    "password": "indonesiahebat@2024",
+    "database": "dev_farhan",
+    "host": "139.59.105.198",
+    "dialect": "mysql"
+  },
+  "dev_farhan_ref": {
+    "username": "devfarhan",
+    "password": "indonesiahebat@2024",
+    "database": "dev_farhan_ref",
+    "host": "139.59.105.198",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
