@@ -1,6 +1,8 @@
 const jwt = require('jsonwebtoken');
 
 const VerifyToken = (req, res, next) => {
+    require('dotenv').config()
+    
     const secretToken = process.env.ACCESS_TOKEN_SECRET
 
     console.log('check point : ' + new Date());
